@@ -4,81 +4,86 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css">
     <link rel="stylesheet" href="styles.css">
     <title>Chancellor Carlton</title>
 </head>
 <body>
 
-    <nav class="header">
-        <div class="profile__pic">
-            <img src="https://webdrive.utahrealestate.com/730aa75ee547215fe810984f929c071c.jpg" alt="Profile Picture">
-        </div>
-        <div class="navbar">
+    <div class="profile__pic">
+        <img src="https://webdrive.utahrealestate.com/730aa75ee547215fe810984f929c071c.jpg" alt="Profile Picture">
+    </div>
+
+    <header class="header">
+        <nav class="navbar__container">
+            <div class="toggle" id="mobile__menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
             <ul class="navbar__menu">
                 <li class="navbar__item">
-                    <a href="#" class="navbar__link">.about()</a>
+                    <a href="#about" class="navbar__link">.about()</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#" class="navbar__link">.projects()</a>
+                    <a href="#projects" class="navbar__link">.projects()</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#" class="navbar__link">.skills()</a>
+                    <a href="#skills" class="navbar__link">.skills()</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="#" class="navbar__link">.contact()</a>
+                    <a href="#contact" class="navbar__link">.contact()</a>
                 </li>
             </ul>
-        </div>
-        <div class="resume">
+        </nav>
 
-        </div>
-    </nav>
+    </header>
+        
     <div class="links">
         <ul class="web__links">
-            <a href="https://github.com/chancellorcarlton" class="link">yooooooo</a>
-            <a href="" class="link">yooooooooo</a>
-            <a href="" class="link">yoooooooo</a>
+            <a href="https://github.com/chancellorcarlton" class="link"><i class="devicon-github-original"></i></a>
+            <a href="https://www.linkedin.com/in/chancellor-carlton-20961913a" class="link"><i class="devicon-linkedin-plain"></i></a>
+            <a href="https://mail.google.com/mail/u/0/#inbox" class="link"><i class="devicon-google-plain"></i></a>
         </ul>
     </div>
 
-<main>
-    <div class="about">
-        <div class="about__container">
-            <h1 class="h1">About Me</h1>
-            <p class="p">I am on my way to becoming a Full-Stack Developer.</p>
-        </div>
-
-    </div>
-    <div class="projects">
-        <div class="projects__container">
-            <h1 class="h1">Projects</h1>
-            <iframe src="http://localhost:4321/" frameborder="0" class="p1"></iframe>
-        </div>
-    </div>
-    <div class="skills">
-        <div class="skills__container">
-            <h1 class="h1">Skills</h1>
-            <p class="p">As many as possible</p>
-        </div>
-    </div>
-
-    <hr>
-
-    <div class="contact">
-        <div class="contact__container">
-
-            <h1 class="h1">Contact Me</h1>
-            <ul class="contact__list">
-                <li class="contact__item">
-                    <a href="#Github" class="contact__link">Email</a>
-                </li>
-                <li class="contact__item">
-                    <a href="#" class="contact__link">Message Me</a>
-                </li>
-            </ul>
+    <main>
+        <div id="about">
+            <div class="about__container">
+                <h1 class="h1">About Me</h1>
+                <p class="p">I am on my way to becoming a Full-Stack Developer.</p>
+            </div>
 
         </div>
-    </div>
-</main>
+        <div id="projects">
+            <div class="projects__container">
+                <h1 class="h1">Projects</h1>
+                <iframe src="http://localhost:4321/" frameborder="0" class="p1"></iframe>
+            </div>
+        </div>
+        <div id="skills">
+            <div class="skills__container">
+                <h1 class="h1">Skills</h1>
+                <p class="p">Loading...</p>
+            </div>
+        </div>
+
+        <div id="contact">
+            <div class="contact__container">
+
+                <h1 class="h1">Contact Me</h1>
+                <ul class="contact__list">
+                    <li class="contact__item">
+                        <a href="#Github" class="contact__link">Email</a>
+                    </li>
+                    <li class="contact__item">
+                        <a href="#" class="contact__link">Message Me</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </main>
+<script src="main.js"></script>
 </body>
 </html>
