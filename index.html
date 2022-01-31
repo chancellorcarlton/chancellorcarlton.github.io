@@ -11,7 +11,7 @@
 <body>
 
     <div class="profile__pic">
-        <img src="https://webdrive.utahrealestate.com/730aa75ee547215fe810984f929c071c.jpg" alt="Profile Picture">
+        <img src="https://webdrive.utahrealestate.com/730aa75ee547215fe810984f929c071c.jpg" alt="Profile Picture" class="pic">
     </div>
 
     <header class="header">
@@ -31,9 +31,6 @@
                 <li class="navbar__item">
                     <a href="#skills" class="navbar__link">.skills()</a>
                 </li>
-                <li class="navbar__item">
-                    <a href="#contact" class="navbar__link">.contact()</a>
-                </li>
             </ul>
         </nav>
 
@@ -47,11 +44,18 @@
         </ul>
     </div>
 
+    <div class="email">
+        <a href="chancerichardcarlton@gmail.com" class="email__link"></a>
+    </div>
+
     <main>
         <div id="about">
             <div class="about__container">
                 <h1 class="h1">About Me</h1>
-                <p class="p">I am on my way to becoming a Full-Stack Developer.</p>
+                <p class="p">I am on my way to becoming a Full-Stack Developer.
+                This is the About me section and it is very important that this
+                section looks very artistic and interesting. I love to code and
+                this section should reflect that.</p>
             </div>
 
         </div>
@@ -64,25 +68,37 @@
         <div id="skills">
             <div class="skills__container">
                 <h1 class="h1">Skills</h1>
-                <p class="p">Loading...</p>
+                <div class="skill__icons">
+                    <ul class="icons">
+                        <div class="icon__box">
+                        <h3>HTML</h3>
+                        <li class="icon__li"><i class="devicon-html5-plain-wordmark" id="icon"></i></li>
+                        </div>
+                        <div class="icon__box">
+                        <h3>CSS</h3>
+                        <li class="icon__li"><i class="devicon-css3-plain-wordmark" id="icon"></i></li>
+                        </div>
+                        <div class="icon__box">
+                        <h3>JAVASCRIPT</h3>
+                        <li class="icon__li"><i class="devicon-javascript-plain" id="icon"></i></li>
+                        </div>
+                        <div class="icon__box">
+                        <h3>POSTGRESQL</h3>
+                        <li class="icon__li"><i class="devicon-postgresql-plain-wordmark" id="icon"></i></li>
+                        </div>
+                        <div class="icon__box">
+                        <h3>REACT</h3>
+                        <li class="icon__li"><i class="devicon-react-original-wordmark" id="icon"></i></li>
+                        </div>
+                        <div class="icon__box">
+                        <h3>PYTHON</h3>
+                        <li class="icon__li"><i class="devicon-python-plain-wordmark" id="icon"></i></li>
+                        </div>
+                    </ul>
+                </div>
             </div>
         </div>
 
-        <div id="contact">
-            <div class="contact__container">
-
-                <h1 class="h1">Contact Me</h1>
-                <ul class="contact__list">
-                    <li class="contact__item">
-                        <a href="#Github" class="contact__link">Email</a>
-                    </li>
-                    <li class="contact__item">
-                        <a href="#" class="contact__link">Message Me</a>
-                    </li>
-                </ul>
-
-            </div>
-        </div>
     </main>
 <script src="main.js"></script>
 </body>
